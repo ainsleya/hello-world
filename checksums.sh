@@ -7,7 +7,6 @@ export COMPRESSED=OFS[1,2].tar.gz
 
 for files in $COMPRESSED
 
-#do sha256sum ${COMPRESSED} >> checksums.txt
 do sha256sum ${COMPRESSED} > checksums.txt
 
 done
